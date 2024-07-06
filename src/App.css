@@ -1,0 +1,49 @@
+body{
+  font-family: "Roboto" , sans-serif;
+}
+.wrapper{
+  display: flex;
+  padding:10px;
+  border-radius: 20px;
+  margin-left: 25%;
+}
+p , h2{
+  color:white;
+}
+#kaliPoster{
+  width: 100px;
+}
+.left{
+  padding:30px;
+  background-color: black;
+}
+.leftimagesection{
+  display: flex;gap:15px;
+
+}
+.summary p{
+   width: 290px;
+   line-height: 20px;
+}
+span{
+  margin-right:5px;
+  border :0.1px solid white;
+  color: white;
+  padding:2px;
+  border-radius: 4px;
+}
+.releaseYear{
+  color: rgb(138, 138, 235);
+}
+.right{
+  padding: 30px;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#Prabhas{
+  object-fit: center;
+  width: 200px;
+  height: 250px;
+}
